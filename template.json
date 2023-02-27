@@ -1,0 +1,53 @@
+{
+    File: 'GOLDEN_SUN_A_AGSE00.gba'     // Keep rom in same directory as code
+    Seed: 42                            // Range from 0 to 999999
+    CutDialogue: true                   // Skips most dialogue
+    Items: true                         // Shuffles key items
+    PrologueSkip: true                  // Skips prologue and djinn tutorial
+    Music: false                        // Shuffles music
+    Coins: 1                            // Coin mod for random battles: 1 (same), 2 (double), etc. 0-99 allowed
+    Exp: 1                              // Exp mod for random battles: 1 (same), 2 (double), etc. 0-99 allowed
+    Djinn:
+    {
+        Djinn: true                     // Shuffles djinn
+        Stats: true                     // Shuffles djinn stat boosts
+    }
+    Summons:
+    {
+        Djinn: true                     // Shuffles element costs of summons (e.g. 4 Mercury with 4 Mars, never 1 Mars)
+        Power: true                     // Randomizes summon power (default +/- 20%)
+    }
+    Equipment:
+    {
+        Equipping: true                 // Randomly sets equipping flags, e.g. Mia equips Gaia Blade
+        Cursed: true                    // Shuffles cursed item flags
+        Effects: true                   // Shuffles effects, e.g. swords gets +10 Venus Resist
+        Unleashes: true                 // Shuffles unleashes
+        Uses: true                      // Shuffles uses
+        Price: true                     // Randomly sets price (default +/- 20%)
+        Attack: true                    // Randomly sets attack (default +/- 20%)
+        Defense: true                   // Randomly sets defense (default +/- 20%)
+    }
+    Classes:
+    {
+        Stats: true                     // Shuffles stat boosts (and rescales if needed)
+        Psynergy: 'Random'              // OPTIONS: 'None', 'Shuffle' (classlines), or 'Random' (completely randomize)
+        Levels:
+        {
+            Random: false               // Shuffles levels when psynergy is learned
+            Noise: true                 // Randomly sets psynergy levels (default +/- 20%)
+        }
+    }
+    PC:                                 // Playable Characters
+    {
+        Stats: true                     // Shuffles PC stats
+        Elements: 'Shuffle'             // OPTIONS: 'None', 'Shuffle' (no repeats), 'Random' (possible repeats)
+        Levels:
+        {
+            Isaac: 1                    // Levels 1 - 99
+            Garet: 1
+            Ivan: 4
+            Mia: 10
+        }
+    }
+}

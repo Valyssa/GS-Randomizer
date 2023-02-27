@@ -1,0 +1,83 @@
+{
+    File: ''
+    Seed: 0
+    Items: false
+    Music: false
+    CutDialogue: false
+    PrologueSkip: true
+    Coins: "1"
+    Exp: "1"
+    BossCoins: "1"
+    BossExp: "1"
+    Djinn:
+    {
+        Djinn: true
+        Stats: true
+        DjinnBattles: true
+    }
+    Summons:
+    {
+        Djinn: false
+        Power: true
+    }
+    Equipment:
+    {
+        Equipping: true
+        Price: true
+        Attack: true
+        Defense: true
+        Effects: true
+        Cursed: true
+        Unleashes: true
+        Uses: true
+    }
+    Classes:
+    {
+        Stats: true
+        Psynergy: Random
+        Levels:
+        {
+            Random: false
+            Noise: false
+            Balanced: true
+        }
+    }
+    PC:
+    {
+        Elements: Shuffle
+        Stats: true
+        Levels:
+        {
+            Isaac: 4
+            Garet: 1
+            Ivan: 1
+            Mia: 1
+        }
+    }
+    LuckGrowth: true
+    Avoid: false
+    AvoidCost: "255"
+    Retreat: false
+    RetreatCost: "6"
+    Solo: true
+    ExpensiveConsumables: true
+    Inns: true
+    Unsellable: true
+    Palettes: false
+    EnemyMovepools: true
+    EnemyStats: true
+    EnemyElements: false
+    Names: false
+    Portraits: false
+    ExpensiveSummons: false
+    NoDamageSummons: false
+    LowDamageSummons: false
+    BalancedDamageSummons: true
+    NoPortableRevives: true
+    AbilityPower: true
+    AbilityCost: true
+    AbilityRange: true
+    NoElement: true
+    PsynergyItems: true
+    ShuffleConsumables: true
+}
